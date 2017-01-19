@@ -35,8 +35,7 @@ function toggle2() {
   on2 = !on2;
   digitalWrite(LED2, on2); 
 }');
-setInterval(toggle1, 400);
-setInterval(toggle2, 456);
+
       } else {
         path.style.fill="#444";
         Puck.write('LED1.reset();\n');
@@ -45,4 +44,3 @@ setInterval(toggle2, 456);
   </script>
   </body>
  </html>
-// var l;setInterval("digitalWrite(LED1,l=!l);",200);
