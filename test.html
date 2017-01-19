@@ -24,10 +24,10 @@
     path.addEventListener("click", function() {
       on = !on;
       if (on) {
-        path.style.fill="green";
+        path.style.fill="red";
         Puck.write('LED2.set();\n');
       } else {
-        path.style.fill="#444";
+        path.style.fill="#888";
         Puck.write('LED2.reset();\n');
       }
     });
